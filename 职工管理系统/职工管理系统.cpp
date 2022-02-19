@@ -24,13 +24,17 @@ int main()
 		case 1:		//增加职工
 			worker.Add_Emp();
 			break;
-		case 2:
+		case 2:		//显示职工
+			worker.Show_Emp();
 			break;
-		case 3:
+		case 3:		//删除员工
+			worker.Del_Emp();
 			break;
-		case 4:
+		case 4:		//修改职工
+			worker.Mod_Emp();
 			break;
-		case 5:
+		case 5:		//查找职工
+			worker.Find_Emp();
 			break;
 		case 6:
 			break;
